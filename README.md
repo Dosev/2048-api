@@ -1,6 +1,8 @@
 # 2048-api
 A 2048 game api for training supervised learning (imitation learning) or reinforcement learning agents
 
+# For TA:
+There two code files. Train.py is the net trained by data(provided by .csv files). OL.py is the net trained in online ways, based on the weights that Train.py provided. Train.py need to be placed in the same directory as the training data folder. OL.py need to be placed in the /2048-api/.
 # Code structure
 * [`game2048/`](game2048/): the main package.
     * [`game.py`](game2048/game.py): the core 2048 `Game` class.
